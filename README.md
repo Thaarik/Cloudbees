@@ -2,9 +2,9 @@
 
 ## Project Setup
 ### React/Next.js 
-1. Clone this repo: ``` git clone https://github.com/Thaarik/Cloudbees.git ```
-2. Go to the file directory:``` cd Cloudbees ```
-3.  Run the command to install the package: ``` npm install ```
+1. Clone this repo: ``` git clone https://github.com/Thaarik/Cloudbees-UI-Challenge.git ```
+2. Go to the file directory:for part one: ``` cd Cloudbees-UI-Challenge/cbc-ui-coding-challenge-partone ```, for part two: ``` cd Cloudbees-UI-Challenge/cbc-ui-coding-challenge-partone ```
+3.  Run the command to install the packages: ``` npm install ```
 4. Next start the frontend service:``` npm run dev ```
 5. The frontend runs in ``` http://localhost:3000  ```
 
