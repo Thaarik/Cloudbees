@@ -10,7 +10,7 @@ const UserList = () => {
     const fetchDetails = async () => {
       try {
         const userDataResponse = await fetch(
-          "https://api.github.com/users?per_page=2"
+          "https://api.github.com/users?per_page=8"
         );
         const data = await userDataResponse.json();
         setGitHubUserData([...data]);
@@ -27,7 +27,7 @@ const UserList = () => {
           <UserListCard user={user} key={user.login} />
         ))
       ) : (
-        <div className="col-span-4 text-center">
+        <div className="col-span-4 text-center text-slate-700 dark:text-slate-50">
           Sorry something went wrong🙁! Please try again later!
         </div>
       )}

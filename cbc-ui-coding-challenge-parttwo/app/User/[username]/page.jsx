@@ -4,7 +4,6 @@ import Link from "next/link";
 
 // Individual User page
 const page = async ({ params }) => {
-  console.log(params)
   return (
     <div className="w-full h-auto flex flex-col justify-evenly items-center">
         <h1 className="text-4xl font-bold m-5 text-gray-900 dark:text-slate-50">GITHUB PROFILE INFO</h1>

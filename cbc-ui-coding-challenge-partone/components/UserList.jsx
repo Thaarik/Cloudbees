@@ -11,7 +11,7 @@ const UserList = async () => {
           <UserListCard user={user} key={user.login} />
         ))
       ) : (
-        <div className="col-span-4 items-center">{`Sorry 🙁! ${gitHubUsersDetail.error}`}</div>
+        <div className="col-span-4 items-center text-slate-700 dark:text-slate-50">{`Sorry 🙁! ${gitHubUsersDetail.error}`}</div>
       )}
     </div>
   );
