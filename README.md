@@ -22,7 +22,8 @@
 7. The Data Fetching is done in server (Server-Side Rendering). Error handling is also done.
 
 GitHub List Page:
-![image](https://github.com/Thaarik/Cloudbees/assets/52432079/83321033-1bb0-4d5a-aad1-229a7c4bc201)
+![image](https://github.com/Thaarik/Cloudbees/assets/52432079/4cac2134-ec2e-4405-8877-d56503ed32b0)
+
 
 
 GitHub User Page:
