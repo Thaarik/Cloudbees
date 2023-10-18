@@ -37,8 +37,8 @@ GitHub User Page:
 3. When a user clicks on anyone of the lists, again it fetches the 'Get a user' detail API url (https://api.github.com/users/{USERNAME}) containing all the details of the chosen user and displaying it in the User details page.
 4. In order to fetch the data, Hooks are used. This makes use of the client-side rendering (CSR) too.
 
-Part Two project List Users UI with no full name (User page UI is same):
-![image](https://github.com/Thaarik/Cloudbees-UI-Challenge/assets/52432079/e4206032-5f96-4552-8755-dbfef39a39c5)
+Part Two project List Users UI with no full name (GitHUb User page UI is identical):
+![image](https://github.com/Thaarik/Cloudbees-UI-Challenge/assets/52432079/8a50d312-2e2d-4d9d-be02-ccdad99e3ae7)
 
 
 ### Part one vs Part two
