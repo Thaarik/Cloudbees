@@ -26,5 +26,6 @@ GitHub List Page:
 
 
 GitHub User Page:
-![image](https://github.com/Thaarik/Cloudbees/assets/52432079/72d633dc-bf1c-437d-864e-cc91152b5b46)
+![image](https://github.com/Thaarik/Cloudbees/assets/52432079/226b7b42-a8e5-47b0-bdaa-2f3e2cdf85c8)
+
 
