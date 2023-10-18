@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cloudbees CBC-UI Coding Challenge
 
-## Getting Started
+## Project Setup
+### React/Next.js 
+1. Clone this repo: ``` git clone https://github.com/Thaarik/Cloudbees.git ```
+2. Go to the file directory:``` cd Cloudbees ```
+3.  Run the command to install the package: ``` npm install ```
+4. Next start the frontend service:``` npm run dev ```
+5. The frontend runs in ``` http://localhost:3000  ```
 
-First, run the development server:
+### Built
+1. The project is built using Next.js.
+2. Styling is done using TailwindCSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Information
+1. The project first loads with the GitHub users list limited to 8 users.
+2. When a user clicks on any one of the list, it redirects them to the clicked gitHub user's profile page.
+3. The application is also built with light and dark mode.
+4. In order to fetch the GitHub API data, it is fetched from the server in in /app/api directory. The details fetched from Lits Users (https://api.github.com/users) and Get a User detail (https://api.github.com/users/{USERNAME}) are combined respectively into single JSON object and send it as a Response (FETCH API). This data is stored in cache for performance optimization.
+5. Also, with the above method, the full name of the user detail can be added along with the username and avatar in the List page.
+6. The application is mobile responsive.
+7. The Data Fetching is done in server (Server-Side Rendering). Error handling is also done.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+GitHub List Page:
+![image](https://github.com/Thaarik/Cloudbees/assets/52432079/83321033-1bb0-4d5a-aad1-229a7c4bc201)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+GitHub User Page:
+![image](https://github.com/Thaarik/Cloudbees/assets/52432079/72d633dc-bf1c-437d-864e-cc91152b5b46)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
