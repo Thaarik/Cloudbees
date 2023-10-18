@@ -37,6 +37,10 @@ GitHub User Page:
 3. When a user clicks on anyone of the lists, again it fetches the 'Get a user' detail API url (https://api.github.com/users/{USERNAME}) containing all the details of the chosen user and displaying it in the User details page.
 4. In order to fetch the data, Hooks are used. This makes use of the client-side rendering (CSR) too.
 
+Part Two project List Users UI with no full name (User page UI is same):
+![image](https://github.com/Thaarik/Cloudbees-UI-Challenge/assets/52432079/e4206032-5f96-4552-8755-dbfef39a39c5)
+
+
 ### Part one vs Part two
 1. From my observance, the part one project performs better than part two due to better performance optimization by Server-side rendering and minimal fetching of api due to caching.
 2. In UI perspective, the part-one has avatar, username and full name of the users in the List Users page. In the part-two project, only avatar and username is present.
